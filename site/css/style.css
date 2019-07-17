@@ -53,7 +53,6 @@ nav a:visited {
 
 .titlepage {
    position: absolute;
-   width: 100%;
    text-align: right;
    z-index: 20;
    margin: 180px;
