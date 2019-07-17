@@ -58,7 +58,7 @@ nav a:visited {
    margin: 180px;
    width: 220px;
    height: 250px;
-   margin-left: 600px;
+   margin-left: 650px;
    border-left: 5px;
    border-top: 0;
    border-bottom: 5px;
@@ -121,7 +121,7 @@ nav a:visited {
 
 .pages-container {
    position: absolute;
-   margin-left: 0;
+   margin-left: 140px;
    margin-top: 50px;
    z-index: 900;
    width: 1180px;
@@ -149,18 +149,20 @@ blockquote {
 
 .pages-container h6 {
    font-size: 30px;
+   margin: auto;
+   line-height: 35px;
+   color: #6ed4d4;
 }
 
 .pages-container h7 {
    font-size: 20px;
-   text-align: left;
-   margin-left: 20px;
-   margin-right: 20px;
+   text-align: center;
+   margin: 0, 40px;
 }
 
 .rule1 {
    position: absolute;
-   background-color: rgba(255, 255, 255, .8);
+   background-color: rgba(255, 255, 255, .9);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -171,7 +173,7 @@ blockquote {
 
 .rule2 {
    position: absolute;
-   background-color: rgba(214, 255, 245, .4);
+   background-color: rgba(214, 255, 245, .8);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -182,7 +184,7 @@ blockquote {
 
 .rule3 {
    position: absolute;
-   background-color: rgba(183, 229, 232, .8);
+   background-color: rgba(255, 255, 255, .9);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -193,7 +195,7 @@ blockquote {
 
 .rule4 {
    position: absolute;
-   background-color: rgba(255, 255, 255, .8);
+   background-color: rgba(214, 255, 245, .8);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -204,7 +206,7 @@ blockquote {
 
 .rule5 {
    position: absolute;
-   background-color: rgba(214, 255, 245, .4);
+   background-color: rgba(255, 255, 255, .9);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -215,7 +217,7 @@ blockquote {
 
 .rule6 {
    position: absolute;
-   background-color: rgba(183, 229, 232, .8);
+   background-color: rgba(214, 255, 245, .8);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -226,7 +228,7 @@ blockquote {
 
 .rule7 {
    position: absolute;
-   background-color: rgba(255, 255, 255, .8);
+   background-color: rgba(255, 255, 255, .9);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -237,7 +239,7 @@ blockquote {
 
 .rule8 {
    position: absolute;
-   background-color: rgba(214, 255, 245, .4);
+   background-color: rgba(214, 255, 245, .8);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -248,7 +250,7 @@ blockquote {
 
 .rule9 {
    position: absolute;
-   background-color: rgba(183, 229, 232, .8);
+   background-color: rgba(255, 255, 255, .9);
    text-align: right;
    z-index: 20;
    margin: 50px;
@@ -259,7 +261,7 @@ blockquote {
 
 .rule10 {
    position: absolute;
-   background-color: rgba(255, 255, 255, .8);
+   background-color: rgba(214, 255, 245, .8);
    text-align: right;
    z-index: 20;
    margin: 50px;
