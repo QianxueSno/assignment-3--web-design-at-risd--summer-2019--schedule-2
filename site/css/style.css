@@ -21,22 +21,23 @@ h1 {
    margin-top: 200px 0;
    right: 100px;
    font-family: Cantarell, sans-serif;
-   line-height: 40px;
    transition: 2s;
    z-index: 10;
+   height: 100%;
 }
 
 nav a {
-   font-size: 82px;
+   font-size: 120px;
+   line-height: 80px;
    color: #d6fff5;
    text-decoration: none;
    width: 20%;
 }
 
 nav a:hover {
-   color: #b7e5e8;
+   color: #ff9ff9;
    text-decoration: none;
-   font-size: 82px;
+   font-size: 120px;
 }
 
 nav a:visited {
@@ -47,16 +48,18 @@ nav a:visited {
 
 .titlepage {
    position: absolute;
-   background-color: white;
+   background-color: rgba(255, 255, 255, 0.5);
    text-align: right;
    z-index: 20;
    margin: 150px;
    width: 400px;
    height: 500px;
    margin-left: 340px;
-   border: 5px;
+   border-left: 5px;
+   border-top: 5px;
+   border-bottom: 5px;
    border-style: dotted;
-   border-color: ffee8c;
+   border-color: #ff9ff9;
 }
 
 .titlepage h1 {
@@ -65,26 +68,46 @@ nav a:visited {
    margin: auto;
    color: #ffee8c;
    line-height: 62px;
-   margin-top: 100px;
+   margin-top: 79px;
    margin-bottom: 0;
    font-family: Rubik Mono One, sans-serif;
 }
 
 .titlepage h2 {
+   font-size: 40px;
+   margin: auto;
+   color: #b7e5e8;
+   line-height: 40px;
+   text-align: center;
+   font-family: Rubik Mono One, sans-serif;
+}
+
+.titlepage h3 {
    font-size: 90px;
    text-align: center;
    margin: auto;
-   color: #b7e5e8;
-   line-height: 122px;
+   color: #ff9ff9;
+   line-height: 100px;
    margin-top: 0;
-   font-family: Cantarell, sans-serif;
+   font-family: Major Mono Display, monospace;
 }
 
 .pages-container {
    position: absolute;
    background-color: red;
    z-index: 30;
-   width: 600px;
+   width: 100%;
+}
+
+blockquote {
+   color: white;
+   font-family: Cantarell, sans-serif;
+   font-size: 40px;
+   height: 90%;
+   text-align: center;
+   margin: 20px;
+   padding: 10px;
+   overflow: scroll;
 }
 
 .rule1 {
@@ -92,9 +115,9 @@ nav a:visited {
    background-color: #d6fff5;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 1000px;
 }
 
@@ -103,9 +126,9 @@ nav a:visited {
    background-color: #ffee8c;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 1450px;
 }
 
@@ -114,9 +137,9 @@ nav a:visited {
    background-color: #d6fff5;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 1900px;
 }
 
@@ -125,9 +148,9 @@ nav a:visited {
    background-color: #ffee8c;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 2350px;
 }
 
@@ -136,9 +159,9 @@ nav a:visited {
    background-color: #d6fff5;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 2800px;
 }
 
@@ -147,9 +170,9 @@ nav a:visited {
    background-color: #ffee8c;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 3250px;
 }
 
@@ -158,9 +181,9 @@ nav a:visited {
    background-color: #d6fff5;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 3700px;
 }
 
@@ -169,9 +192,9 @@ nav a:visited {
    background-color: #ffee8c;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 4150px;
 }
 
@@ -180,9 +203,9 @@ nav a:visited {
    background-color: #d6fff5;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 4600px;
 }
 
@@ -191,8 +214,8 @@ nav a:visited {
    background-color: #ffee8c;
    text-align: right;
    z-index: 20;
-   margin: 100px;
+   margin: 50px;
    width: 400px;
-   height: 600px;
+   height: 750px;
    margin-left: 5050px;
 }
